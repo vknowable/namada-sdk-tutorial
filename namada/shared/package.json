@@ -1,0 +1,16 @@
+{
+  "name": "@namada/shared",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "wasm:build": "wasm-pack build ./lib --release --target web --out-dir ../src/shared",
+    "wasm:build:dev": "wasm-pack build ./lib --dev --target web --out-dir ../src/shared"
+  },
+  "dependencies": {
+    "typescript": "^5.1.3"
+  },
+  "devDependencies": {
+    "wasm-pack": "^0.12.1"
+  }
+}

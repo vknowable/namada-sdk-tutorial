@@ -1,0 +1,11 @@
+{
+  "name": "namada-sdk-tutorial",
+  "private": true,
+  "workspaces": [
+    "app/*",
+    "namada/*"
+  ],
+  "dependencies": {
+    "@namada/shared": "^0.1.0"
+  }
+}
