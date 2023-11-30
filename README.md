@@ -28,6 +28,8 @@ npm run wasm:build:dev
 # or npm run wasm:build:release
 ```
 
+You will need Rust and [Clang](https://rust-lang.github.io/rust-bindgen/requirements.html) installed.
+
 
 
 Then you can use your new method inside your React app by first calling the wasm `init` function and then creating a new instance of the Query class:
