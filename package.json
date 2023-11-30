@@ -2,9 +2,12 @@
   "name": "namada-sdk-tutorial",
   "private": true,
   "workspaces": [
-    "app/*",
+    "app",
     "namada/*"
   ],
+  "scripts": {
+    "start": "cd app && npm start"
+  },
   "dependencies": {
     "@namada/shared": "^0.1.0"
   }

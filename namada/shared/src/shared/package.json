@@ -1,0 +1,14 @@
+{
+  "name": "shared",
+  "version": "0.0.1",
+  "files": [
+    "shared_bg.wasm",
+    "shared.js",
+    "shared.d.ts"
+  ],
+  "module": "shared.js",
+  "types": "shared.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
