@@ -1,4 +1,4 @@
-use namada::namada_sdk::rpc::{query_epoch};
+use namada::sdk::rpc::query_epoch;
 use wasm_bindgen::prelude::*;
 use crate::rpc_client::HttpClient;
 use gloo_utils::format::JsValueSerdeExt;
