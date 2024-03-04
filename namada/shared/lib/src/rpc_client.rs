@@ -12,7 +12,7 @@ use namada::tendermint::{self, abci::Code};
 use namada::tendermint_rpc::{
     error::Error as TendermintRpcError, Response as RpcResponse, SimpleRequest,
 };
-use namada::types::storage::BlockHeight;
+use namada::storage::BlockHeight;
 
 #[wasm_bindgen(module = "/src/rpc_client.js")]
 extern "C" {

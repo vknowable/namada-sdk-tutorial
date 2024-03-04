@@ -13,7 +13,7 @@ dev = []
 async-trait = {version = "0.1.51"}
 gloo-utils = { version = "0.1.5", features = ["serde"] }
 js-sys = "0.3.60"
-namada = { git = "https://github.com/anoma/namada", version = "0.31.2", default-features = false, features = ["namada-sdk"] }
+namada = { git = "https://github.com/anoma/namada", version = "0.31.6", default-features = false, features = ["namada-sdk"] }
 thiserror = "^1"
 wasm-bindgen = "0.2.90"
 wasm-bindgen-futures = "0.4.40"
